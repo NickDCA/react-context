@@ -17,7 +17,7 @@ export const PagamentoProvider = ({ children }) => {
     },
     {
       nome: "PIX",
-      juros: 1.3,
+      juros: 1,
       id: 3,
     },
     {
