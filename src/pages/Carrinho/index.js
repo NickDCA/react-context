@@ -8,7 +8,7 @@ import {
 import MuiAlert from "@material-ui/lab/Alert";
 import { useCarrinhoContext } from "common/context/Carrinho";
 import Produto from "components/Produto";
-import { useContext, useState } from "react";
+import { useState } from "react";
 import {
   Container,
   Voltar,
@@ -16,10 +16,7 @@ import {
   PagamentoContainer,
 } from "./styles";
 import { useHistory } from "react-router-dom";
-import {
-  PagamentoContext,
-  usePagamentoContext,
-} from "common/context/Pagamento";
+import { usePagamentoContext } from "common/context/Pagamento";
 
 function Carrinho() {
   const [openSnackbar, setOpenSnackbar] = useState(false);
